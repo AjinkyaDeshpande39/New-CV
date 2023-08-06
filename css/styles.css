@@ -175,16 +175,21 @@ Skills
 
 .skillstableclass
 {
-    align-items: center;
     text-align: left;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
 }
-td
+.tdtable
 {
-    padding: 0 30px 0 30px;
+    /* padding: 0 30px 0 30px; */
+    /* padding-top: 0%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 0%; */
+    display: inline-block;
+    width: 20em;
 }
 .skillsextra
 {
@@ -208,7 +213,7 @@ Contact Me
     padding-top: 2%;
     padding-right: 2%;
     padding-bottom: 1%;
-    
+    display: inline-block;
 }
 
 
